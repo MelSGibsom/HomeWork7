@@ -1,6 +1,6 @@
 package ua.Romanov.Alexandr;
 
-public class Main {
+public class NoteBook {
 
 
     private String name;
@@ -114,29 +114,29 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main main = new Main();
+        NoteBook noteBook = new NoteBook();
 
-        main.setName("Asus ROG Strix G531GT-BQ132 (90NR01L3-M02530) Black");
-        System.out.println(main.getName());
-        main.setPrice(5999);
-        main.setCPU("Intel Core i5-9300H (2.4 - 4.1 ГГц)");
-        main.setHardDriveType("SSD");
-        main.setNumberOfCPU("4");
-        main.setNew(true);
-        main.setRAM("8 Gb");
-        main.setScreenDiagonal("15.6");
-        main.setSecondHand(false);
-        System.out.println("Is New?: " + main.isNew());
-        System.out.println("Is second hand?: " + main.isSecondHand());
-        System.out.println("Price "+main.getPrice());
-        System.out.println(main.getName());
-        System.out.println("Number of CPU: " + main.getNumberOfCPU());
-        System.out.println(main.getCPU());
-        System.out.println("Hard Drive type: " + main.getHardDriveType());
-        System.out.println("Number of CPU: " + main.getNumberOfCPU());
-        System.out.println("price: " + main.getPrice());
-        System.out.println("RAM: "+main.getRAM());
-        System.out.println("Screen Diagonal: "+main.getScreenDiagonal());
+        noteBook.setName("Asus ROG Strix G531GT-BQ132 (90NR01L3-M02530) Black");
+        System.out.println(noteBook.getName());
+        noteBook.setPrice(5999);
+        noteBook.setCPU("Intel Core i5-9300H (2.4 - 4.1 ГГц)");
+        noteBook.setHardDriveType("SSD");
+        noteBook.setNumberOfCPU("4");
+        noteBook.setNew(true);
+        noteBook.setRAM("8 Gb");
+        noteBook.setScreenDiagonal("15.6");
+        noteBook.setSecondHand(false);
+        System.out.println("Is New?: " + noteBook.isNew());
+        System.out.println("Is second hand?: " + noteBook.isSecondHand());
+        System.out.println("Price "+ noteBook.getPrice());
+        System.out.println(noteBook.getName());
+        System.out.println("Number of CPU: " + noteBook.getNumberOfCPU());
+        System.out.println(noteBook.getCPU());
+        System.out.println("Hard Drive type: " + noteBook.getHardDriveType());
+        System.out.println("Number of CPU: " + noteBook.getNumberOfCPU());
+        System.out.println("price: " + noteBook.getPrice());
+        System.out.println("RAM: "+ noteBook.getRAM());
+        System.out.println("Screen Diagonal: "+ noteBook.getScreenDiagonal());
 
 
     }
